@@ -1,5 +1,5 @@
 module "wordpress_db" {
-    source = "../"
+    source = "noorlan/terraform-aws-rds-instance"
 
     region              = "us-east-2"
     identifier          = "dbname"
